@@ -1,0 +1,225 @@
+[class*="sheet__"]{
+	width:100%;
+	padding:0 0;
+	background-color: #F2F5F5;
+}
+.sheet__dashboard {
+	position: relative;
+    top: 0px;
+    left: 0px;
+	height: 70vh;
+	text-align:center;
+	display: table;
+	vertical-align: middle;
+	// z-index: -1;
+	background-color: transparent;
+		/* fix background */
+	 background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("assets/pics/tampa.jpg");
+	h3 {
+		vertical-align: middle;
+		margin-top: 0;
+	}
+}
+.sheet__search {
+	height: 60vh;
+	text-align:center;
+	display: table;
+	vertical-align: middle;
+	z-index: -1;
+	background-color: transparent;
+		/* fix background */
+	 background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("assets/pics/beach.jpg");
+}
+.sheet__info {
+	height: 700px;
+	background-color: #F8F6F7;
+	font-family: 'Open Sans Condensed', sans-serif;
+	h1 {
+		   font-size: 50px;
+	}
+
+}
+.sheet__neighborhoods {
+	height: 550px;
+	display: flex;
+	justify-content: space-around;
+}
+.sheet__about {
+	// padding-top: 150px;
+	 background-color: #ecf0f1;
+}
+.sheet__about_text {
+ background-color: #151515;	
+}
+.sheet__reviews {
+	height: 50vh;
+	  img {
+	  	height: 50vh;
+	  }
+
+	h2 {
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+}
+.sheet__homes {
+	// margin-top: 60px;
+	color: white;
+	position: relative;
+    // top: 0px;
+    // left: 0px;
+	height: 270px;
+	text-align:center;
+	// display: table;
+	vertical-align: middle;
+	z-index: -1;
+	background-color: transparent;
+		/* fix background */
+	 background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("assets/pics/beach.jpg");
+	padding-left: 2vw;
+}
+.sheet__aheader {
+	span {
+		width: 100%;
+	}
+	position: relative;
+    top: 0px;
+    left: 0px;
+	height: 60vh;
+	text-align:center;
+	// display: table;
+	vertical-align: middle;
+	z-index: -1;
+	background-color: transparent;
+		/* fix background */
+	 background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("assets/pics/ohio.jpg");
+	h1 {
+	  	display: table-cell;
+		vertical-align: middle;
+		margin-top: 20vh;
+	}
+}
+.sheet__map{
+	display:flex;
+	justify-content:center;
+}
+.sheet__contact_form {
+	// margin-top: 60px;
+	float: left;
+	width: 50.3%;
+	height: 700px;
+	padding-left: 10px;
+	input[type=text] {
+		width: 100%;
+		background-color: transparent;
+		border-type: solid;
+		border-right: 0;
+		border-left: 0;
+		border-top: 0;
+		border-color: white;
+		border-radius: 0;
+		color: white;
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: white;
+		}
+	}
+	input[type=email] {
+		width: 100%;
+		background-color: transparent;
+		border-type: solid;
+		border-right: 0;
+		border-left: 0;
+		border-top: 0;
+		border-color: white;
+		border-radius: 0;
+		color: white;
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: white;
+		}
+	}
+	textarea {
+		padding: 0;
+		width: 100%;
+		background-color: transparent;
+		border-type: solid;
+		border-right: 0;
+		border-left: 0;
+		border-top: 0;
+		border-color: white;
+		border-radius: 0;
+		color: white;
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: white;
+		}
+	}
+	background-size: cover;
+	background-image: url("assets/pics/sunset.jpg");
+}
+.sheet__contactHeader {
+	// margin-top: 60px;
+	span {
+		width: 100%;
+	}
+	color: white;
+	position: relative;
+    // top: 0px;
+    // left: 0px;
+	height: 270px;
+	text-align:center;
+	// display: table;
+	vertical-align: middle;
+	z-index: -1;
+	background-color: transparent;
+		/* fix background */
+	 background-attachment: fixed;
+	/* center it */
+	background-position: center center;
+	/* Scale it nicely to the element */
+	background-size: cover;
+	background-image: url("assets/pics/sunset.jpg");
+	padding-left: 2vw;
+}
+.sheet__search {
+	// margin-top: 60px;
+	color: white;
+	position: relative;
+    // top: 0px;
+    // left: 0px;
+	height: 270px;
+	text-align:center;
+	// display: table;
+	vertical-align: middle;
+	z-index: -1;
+	background-color: #B0BEC5;
+		/* fix background */
+	padding-left: 2vw;
+}
+.sheet__about {
+	padding-top: 30px;
+	background-color: #FFFF;
+	color: black;
+	height: 40vh;
+	padding-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+

@@ -1,0 +1,149 @@
+$small: 715;
+.contact_container {
+  font-family: 'Open Sans Condensed', sans-serif;
+ padding-top: 20px;
+ margin-left: 40px;
+  // float: left;
+ overflow: auto;
+ // text-color: black;
+  display: inline-block;
+  width: 300px;
+  h3 {
+  	margin-top: 0px;
+  }
+   svg {
+   	float: left;
+   	color: white;
+   }
+   background-color: transparent;
+}
+
+.contact_header {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+ .contact_line {
+ 	stroke: white;
+  stroke-width: 10px;
+ }
+  form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  margin: 0;
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: white;
+    }
+    input, textarea {
+      // border:0; outline:0;
+      outline: 0;
+      padding: 1em;
+      border-radius: 8px;
+      display: block;
+      width: 100%;
+      margin-top: 1em;
+      font-family: 'Open Sans Condensed', sans-serif;
+      resize: none;
+    }
+    #input-submit {
+      // background: white;
+      cursor: pointer;
+      // width: 100%;
+      border-radius: 0;
+      width: 40%;
+      color: white;
+      // background-color: transparent;
+      background:rgba(255,255,255, 0.3);
+      border-type: solid;
+      border-width: 2px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-color: white;
+    border-radius: 0;
+    }
+    input {
+      margin-right: 5px;
+    }
+    textarea {
+      height: 126px;
+    }
+ }
+ .half {
+  float: left;
+  width: 45%;
+  margin-bottom: 1em;
+ }
+ .full {
+  float: left;
+  margin-bottom: 1em;
+  width: 90%;
+ }
+ .right {
+  width: 50%;
+  padding-left: 30px;
+  @include breakpoint($small) {
+    padding-left: 0px;
+  }
+  // margin-left: 4%;
+ }
+.left {
+  // margin-right: 1%;
+  // margin-left: 30px;
+}
+@include breakpoint($small) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.contact_left {
+  font-family: 'Open Sans Condensed', sans-serif;
+  float: left;
+  width: 48%;
+  height: 700px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 10px;
+  h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  p {
+    width: 100%;
+    white-space: pre-wrap;
+  }
+}
+.contact_info {
+  display: block;
+  text-align: left;
+  bottom: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 300px;
+  position: absolute;
+}
+.text_wrapper {
+  width: 100%;
+  color: white;
+}
+.contact_info_container {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  img {
+        border-radius: 50%;
+
+  }
+    font-family: 'Open Sans Condensed', sans-serif;
+text-align :center
+}

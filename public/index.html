@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app" class="ng-scope">
+    <head>
+    	<title></title>
+    	<script type="text/javaScript" src="/bower_components/angular/angular.js"></script>
+        <script type="text/javaScript" src="/bower_components/angular-route/angular-route.js"></script>
+     	
+     	<!-- App  -->
+        <script type="text/javaScript" src="app.js"></script>
+       	<!-- Controllers  -->
+        <script type="text/javaScript" src="/assets/controllers/messageController.js"></script>
+        <script type="text/javaScript" src="/assets/controllers/homeController.js"></script>
+        <!-- Factories -->
+        <script type="text/javaScript" src="/assets/factories/messageFactory.js"></script>
+        <script type="text/javaScript" src="/assets/factories/homeFactory.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Services  -->
+        <script type="text/javaScript" src="/assets/services/gservice.js"></script>
+         <script type="text/javaScript" src="/assets/services/locationService.js"></script>
+             <script type="text/javaScript" src="/bower_components/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Saira+Semi+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Nunito+Sans" rel="stylesheet">
+
+        <!-- Google Maps -->
+       <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHt2XofXYe52MXTfA3rqgsP0EDVBTGpEg&libraries=places"></script>
+ -->    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHt2XofXYe52MXTfA3rqgsP0EDVBTGpEg"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+      <!--    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHt2XofXYe52MXTfA3rqgsP0EDVBTGpEg&libraries=places"></script> -->
+
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	
+
+    </head>
+    <body>
+    <!--     <p ng-repeat="error in errors">
+            {{$scope.error}}
+        </p>
+        <p>{{$scope.success}}</p> -->
+        <!-- Partial -->
+        <div class="partial-container" ng-view=""></div>
+        <!-- END Partial -->
+
+        <footer>
+                &copy; Kevin Boyer 2017
+        </footer>
+    </body>
+</html>

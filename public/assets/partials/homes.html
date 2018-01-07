@@ -1,0 +1,39 @@
+<div class="container">
+      <a class="mobile" href="">&#9776;</a>
+      <nav class="main_nav">
+        <ul id="nav">
+          <li><a href="/"><img class="nav_img" src="assets/pics/realty.png"></a></li>
+          <li><a href="#/about">ABOUT</a></li>
+          <li><a href="#/homes">PROPERTIES</a></li>
+          <li><a href="#/buy">BUY</a></li>
+          <li><a href="#/sell">SELL</a></li>
+          <li><a href="#/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+</div>
+<div class="sheet__homes">
+ <div class="contact_info">
+      <div class="text_wrapper">
+              <b>available properties</b>
+      </div>
+      <svg height="20" width="500">
+                  <line class="about_line" x1="0" y1="0" x2="400" y2="0" />
+      </svg>
+  </div>
+</div>
+<div class="sheet__search">
+  <div class="search_container">
+      <h2> Search by address </h2>
+      <form class="search_bar">
+          <input type="text" ng-model="Address.adress">
+          <button>search</button>
+      </form>
+  </div>
+</div>
+<!-- <form class="search_bar">
+  <input type="text" placeholder="adress" name="" ng-model="Adress.address">
+ <button ng-click="convertAdress(Adress)">search</button>
+</form> -->
+<div class="sheet__map">
+    <div id="map" style="width:100%;  height: 400px"></div>
+</div>
